@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const booksRoute = require('./routes/FetchBooks');
+const booksRoute = require('./router/FetchBooks');
 
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
